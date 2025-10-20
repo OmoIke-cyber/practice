@@ -1,0 +1,14 @@
+version 2:
+
+sources:
+  - name: test_source
+    database: core
+    schema: disputes
+    tables:
+    - name: DISPUTE_SETTLEMENT
+  
+  - name: test_source_2
+    database: core
+    schema: claim
+    tables:
+    - name: customer_master
