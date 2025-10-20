@@ -1,0 +1,10 @@
+version 2:
+
+models:
+  - name: stg_core_disputes__DISPUTE__SETTLEMENT
+    description: This is a model to test our sources file configuration
+    columns:
+      -name: CLAIMCPTID
+      description: "CLAIMCPTID for all users"
+      data_tests:
+        - not_null
