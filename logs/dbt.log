@@ -1,0 +1,105 @@
+[0m16:35:40.203318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181BA7E0590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181BB61FD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181BB61F9D0>]}
+
+
+============================== 16:35:40.221406 | 5e0a9a84-68f2-4e03-bb05-fa9f51a1ea7b ==============================
+[0m16:35:40.221406 [info ] [MainThread]: Running with dbt=1.10.13
+[0m16:35:40.224192 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init', 'printer_width': '80', 'no_print': 'None', 'log_format': 'default', 'target_path': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\omo.ike\\.dbt', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m16:37:44.233862 [debug] [MainThread]: Starter project path: C:\Users\omo.ike\Documents\practice\venv\Lib\site-packages\dbt\include\starter_project
+[0m16:37:44.353321 [info ] [MainThread]: 
+Your new dbt project "Test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:37:44.354266 [info ] [MainThread]: Setting up your profile.
+[0m17:01:21.158002 [info ] [MainThread]: Profile Test written to C:\Users\omo.ike\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:01:21.162504 [debug] [MainThread]: Command `dbt init` succeeded at 17:01:21.162136 after 1541.65 seconds
+[0m17:01:21.163428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181BD2BE3F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181BB6BB0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000181BD2ADBF0>]}
+[0m17:01:21.165900 [debug] [MainThread]: Flushing usage events
+[0m17:01:23.071066 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:08:24.289110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D72020590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D72E5FD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D72E5F9D0>]}
+
+
+============================== 17:08:24.297918 | 56686a9a-a2a0-428b-838f-00324e3eba10 ==============================
+[0m17:08:24.297918 [info ] [MainThread]: Running with dbt=1.10.13
+[0m17:08:24.298967 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt debug', 'printer_width': '80', 'target_path': 'None', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\omo.ike\\.dbt', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m17:08:24.338508 [info ] [MainThread]: dbt version: 1.10.13
+[0m17:08:24.339449 [info ] [MainThread]: python version: 3.13.5
+[0m17:08:24.340124 [info ] [MainThread]: python path: C:\Users\omo.ike\Documents\practice\venv\Scripts\python.exe
+[0m17:08:24.340628 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m17:08:25.161158 [info ] [MainThread]: Using profiles dir at C:\Users\omo.ike\.dbt
+[0m17:08:25.162134 [info ] [MainThread]: Using profiles.yml file at C:\Users\omo.ike\.dbt\profiles.yml
+[0m17:08:25.162818 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\omo.ike\Documents\practice\dbt_project.yml
+[0m17:08:25.165406 [info ] [MainThread]: adapter type: snowflake
+[0m17:08:25.166356 [info ] [MainThread]: adapter version: 1.10.2
+[0m17:08:25.167515 [info ] [MainThread]: Configuration:
+[0m17:08:25.168305 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:08:25.168951 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:08:25.169542 [info ] [MainThread]: Required dependencies:
+[0m17:08:25.170235 [debug] [MainThread]: Executing "git --help"
+[0m17:08:25.251757 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:08:25.252690 [debug] [MainThread]: STDERR: "b''"
+[0m17:08:25.253515 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:08:25.254163 [info ] [MainThread]: Connection:
+[0m17:08:25.254742 [info ] [MainThread]:   account: halomd-dev.privatelink
+[0m17:08:25.255219 [info ] [MainThread]:   user: DEV_DAGSTER_SVC
+[0m17:08:25.256002 [info ] [MainThread]:   database: CORE
+[0m17:08:25.256467 [info ] [MainThread]:   warehouse: DEV_DAGSTER_001_WH
+[0m17:08:25.257058 [info ] [MainThread]:   role: SNOWFLAKE_DEV_SYSADMIN
+[0m17:08:25.257551 [info ] [MainThread]:   schema: EXPORT
+[0m17:08:25.257933 [info ] [MainThread]:   authenticator: None
+[0m17:08:25.258281 [info ] [MainThread]:   oauth_client_id: None
+[0m17:08:25.258606 [info ] [MainThread]:   query_tag: None
+[0m17:08:25.258943 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:08:25.259347 [info ] [MainThread]:   host: None
+[0m17:08:25.259726 [info ] [MainThread]:   port: None
+[0m17:08:25.260112 [info ] [MainThread]:   proxy_host: None
+[0m17:08:25.260404 [info ] [MainThread]:   proxy_port: None
+[0m17:08:25.260740 [info ] [MainThread]:   protocol: None
+[0m17:08:25.261074 [info ] [MainThread]:   connect_retries: 1
+[0m17:08:25.261388 [info ] [MainThread]:   connect_timeout: None
+[0m17:08:25.261723 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:08:25.262048 [info ] [MainThread]:   retry_all: False
+[0m17:08:25.262346 [info ] [MainThread]:   insecure_mode: False
+[0m17:08:25.262640 [info ] [MainThread]:   reuse_connections: True
+[0m17:08:25.262940 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m17:08:25.263620 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m17:08:26.063048 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:08:39.080468 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:08:39.080956 [debug] [MainThread]: On debug: select 1 as id
+[0m17:08:39.081648 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:08:49.899782 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:08:49.900292 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:08:49.900625 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:08:49.901590 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:08:49.902187 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\omo.ike\Documents\practice\dbt_project.yml> not found
+
+[0m17:08:49.902588 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: halomd-dev.privatelink.snowflakecomputing.com:443. Incorrect username or password was specified.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:08:49.903662 [debug] [MainThread]: Command `dbt debug` failed at 17:08:49.903540 after 26.28 seconds
+[0m17:08:49.903983 [debug] [MainThread]: Connection 'debug' was left open.
+[0m17:08:49.904211 [debug] [MainThread]: On debug: No close available on handle
+[0m17:08:49.904454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D74B4DBA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D74F85370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D74A86140>]}
+[0m17:08:49.904774 [debug] [MainThread]: Flushing usage events
+[0m17:08:51.908821 [debug] [MainThread]: An error was encountered while trying to flush usage events
