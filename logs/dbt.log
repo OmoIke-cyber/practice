@@ -103,3 +103,18 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m17:08:49.904454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D74B4DBA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D74F85370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028D74A86140>]}
 [0m17:08:49.904774 [debug] [MainThread]: Flushing usage events
 [0m17:08:51.908821 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:04:43.199595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2AD00590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2BB47D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2BB479D0>]}
+
+
+============================== 19:04:43.208748 | 70f15889-5241-49ce-98f0-4e54a2ea4ce3 ==============================
+[0m19:04:43.208748 [info ] [MainThread]: Running with dbt=1.10.13
+[0m19:04:43.210217 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\omo.ike\\.dbt', 'printer_width': '80', 'use_colors': 'True', 'target_path': 'None', 'no_print': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m19:04:43.211082 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\omo.ike\Documents\practice\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:04:43.212602 [debug] [MainThread]: Command `dbt run` failed at 19:04:43.212373 after 0.85 seconds
+[0m19:04:43.213137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2BBB4180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2BA3AF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2B9E16A0>]}
+[0m19:04:43.213887 [debug] [MainThread]: Flushing usage events
+[0m19:04:44.914005 [debug] [MainThread]: An error was encountered while trying to flush usage events

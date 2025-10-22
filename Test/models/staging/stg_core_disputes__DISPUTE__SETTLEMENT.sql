@@ -1,3 +1,5 @@
+{{ config(materialized='view') }}
+
 with source_data as (
 
     select *
@@ -6,5 +8,3 @@ with source_data as (
 
 
 select * from source_data
-where CLAIMCPTID is not null
-limit 200
