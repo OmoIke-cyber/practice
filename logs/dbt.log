@@ -118,3 +118,32 @@ Runtime Error
 [0m19:04:43.213137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2BBB4180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2BA3AF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B2B9E16A0>]}
 [0m19:04:43.213887 [debug] [MainThread]: Flushing usage events
 [0m19:04:44.914005 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:13:02.397343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002224B180590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002224BFBFD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002224BFBF9D0>]}
+
+
+============================== 09:13:02.416468 | 9932e627-e386-4b26-96e5-aa11cae82032 ==============================
+[0m09:13:02.416468 [info ] [MainThread]: Running with dbt=1.10.13
+[0m09:13:02.418505 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\omo.ike\\.dbt', 'use_colors': 'True', 'write_json': 'True', 'printer_width': '80', 'no_print': 'None', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init st_proc_dbt', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m09:13:02.511931 [debug] [MainThread]: Starter project path: C:\Users\omo.ike\Documents\practice\venv\Lib\site-packages\dbt\include\starter_project
+[0m09:13:02.632384 [info ] [MainThread]: 
+Your new dbt project "st_proc_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:13:02.638515 [info ] [MainThread]: Setting up your profile.
+[0m09:13:53.010011 [info ] [MainThread]: Profile st_proc_dbt written to C:\Users\omo.ike\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:13:53.012539 [debug] [MainThread]: Command `dbt init` succeeded at 09:13:53.012209 after 51.28 seconds
+[0m09:13:53.013240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002224DBDE3F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002224AC9A8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002224DBCDBF0>]}
+[0m09:13:53.013984 [debug] [MainThread]: Flushing usage events
+[0m09:13:54.443723 [debug] [MainThread]: An error was encountered while trying to flush usage events
