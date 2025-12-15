@@ -33,3 +33,10 @@ sources:
     schema: arbitration
     tables:
       - name: arbitrationcases
+
+
+  - name: inv
+    database: SRC_ArbMaster
+    schema: inv
+    tables:
+      - name: eom_customer_files
