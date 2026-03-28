@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: core
+    description: "Core data warehouse tables"
+
+    schema: email
+    tables:
+      - name: classified_emails
+
+  - name: raw
+    database: raw
+    description: "Raw data sources"
+    schema: dwsql
+    tables:
+      - name: src_idrsupport_emails
+
+
+  - name: core
+    description: "Core business data"
+
+    schema: src_idrsupport
+    tables:
+      - name: disputemaster
+              
+      - name: disputecpt
+              
+      - name: disputeawarddeterminations
+
+  - name: core
+    description: "Core business data"
+
+    schema: arbitration
+    tables:
+      - name: arbitrationcases
